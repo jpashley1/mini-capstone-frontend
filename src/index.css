@@ -1,0 +1,48 @@
+html {
+  scroll-behavior: smooth;
+}
+
+
+header {
+  background-color: rgb(234, 213, 181);
+  padding: 14px;
+  color: rgba(255, 255, 255, 0.385);
+  /* text-align: center; */
+  /* justify-items: center; */
+  /* align-content: center; */
+}
+
+header a {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: rgb(87, 85, 85);
+  text-decoration: none;
+}
+header a:hover {
+  background-color: antiquewhite;
+  border-radius: 0.5em;
+  
+}
+nav {
+  display: flex;
+  
+  justify-content: space-around; 
+  width: 80%;
+}
+#products-index img {
+  max-width: 300px;
+  max-height: 200px;
+}
+
+#products-index {
+  margin-top: 100px;
+}
+
+#Create-Listing {
+  margin-top: 32px;
+  justify-content: center;
+
+}
+
+#products-create form  {
+  text-align: center;
+}
